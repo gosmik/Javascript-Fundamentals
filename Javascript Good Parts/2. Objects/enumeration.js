@@ -1,8 +1,8 @@
 var another = {};
 another.name = "yusuf";
 another.surname = "unlu";
-another.okul = 'ege';
-another.adres = 'mahmutbey';
+another.school = 'ege';
+another.adress = 'mahmutbey';
 
 var name ;
 
@@ -14,10 +14,10 @@ for(name in another){
 
 var i ;
 var properties = [
-    "okul","adres","surname","name"
+    "school","adress","surname","name"
 ];
 
-document.writeln(another['okul']);
+document.writeln(another['school']);
 document.writeln(another[properties[1]]);
 document.writeln(properties[1]);
 document.writeln(properties.length);
