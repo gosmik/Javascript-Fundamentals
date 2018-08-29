@@ -30,3 +30,4 @@ Simple types are number,string,boolean,null and undefined. All others are object
 number, string and boolean are object-like and they are immutable. Objects are mutable
 Property name can be any string including empty. Property value can be any js value except undefined.
 Object literal is var obj = {};
+
