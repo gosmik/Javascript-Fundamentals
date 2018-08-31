@@ -1,6 +1,7 @@
-var another = {};
-another.name = "yusuf";
-another.surname = "unlu";
+var another = {
+    name : "yusuf",
+    "last-name" : "unlu"
+};
 another.school = 'ege';
 another.adress = 'mahmutbey';
 
@@ -14,7 +15,7 @@ for(name in another){
 
 var i ;
 var properties = [
-    "school","adress","surname","name"
+    "school","adress","last-name","name"
 ];
 
 document.writeln(another['school']);

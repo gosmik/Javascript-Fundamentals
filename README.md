@@ -29,5 +29,15 @@ Chapter 3 Objects
 Simple types are number,string,boolean,null and undefined. All others are object.
 number, string and boolean are object-like and they are immutable. Objects are mutable
 Property name can be any string including empty. Property value can be any js value except undefined.
-Object literal is var obj = {};
+Object literal is var obj = {
+    "name":"Yusuf",
+    "last-name":"Unlu"
+};
+obj.hasOwnProperty('name') // doesn't look at protoype chain it only check on the current object
+obj.name <==> obj.["name"] , We have to use obj.["last-name"] format for - namings
+In javascript objects pass by reference, never copied
+Prototype link only works for retriving, doesn't work for update or delete.
+
+Chapter 4 Functions
+
 
