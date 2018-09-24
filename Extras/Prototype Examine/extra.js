@@ -17,7 +17,7 @@ function Cat(name, color) {
   this.name = name;
   this.color = color;
 }
-
+    
 Cat.prototype.age = 0;
 Cat.prototype.adres = 'istanbul';
 

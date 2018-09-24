@@ -39,5 +39,12 @@ In javascript objects pass by reference, never copied
 Prototype link only works for retriving, doesn't work for update or delete.
 
 Chapter 4 Functions
-
+Functions are objects which are collections of name/value pairs
+Linked to Function.prototype(linked to Object.protoype)
+Has protoype property (include constructor property whose value is the function)
+var add = function(a,b){ return a+b;};
+add.constructor.constructor <==> Function.prototype
+If we don't init params they will be undefined
+Function can access to the vars which is nested in the function
+Every function receieve this and arguments beside declared params
 
